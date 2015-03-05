@@ -1,0 +1,128 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+	font-family: "Lantinghei TC", "Hiragino Kaku Gothic Pro", "Heiti TC", "微軟正黑體", "STHeiti Light", "Microsoft Yahei", "Microsoft JhengHei", Helvetica, sans-serif !important;	
+}
+
+.main {
+	position: relative;
+	background: url('../img/greyzz.png');
+	width: 100%;
+	min-height: 560px;
+	padding: 10px;
+}
+
+.side-bar {
+	position: absolute;
+	width: 40%;
+	top: 50px;
+	left: 0;
+}
+
+.main-head-font {
+	font-family: 'Lobster', cursive;
+}
+
+.main-content {
+	position: absolute;
+	width: 60%;
+	top: 50px;
+	right: 0;	
+}
+
+.head-avatar-block {
+	position: absolute;
+	right: 80px;
+}
+
+.head-avatar {
+	border-radius: 100%;
+	width: 300px;
+}
+
+.head-avatar:hover {
+	transition: 1s ease-in-out;
+	transform: rotate(360deg);
+}
+
+.main-circle {
+	display: inline-block;
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	text-align: center;
+}
+
+.circle-1 {
+	top: 130px;
+	left: 0px;		
+	background: rgb(233,99,0);
+}
+
+.circle-1:hover {
+	cursor: pointer;
+	opacity: 0.8;
+} 
+
+.circle-2 {
+	top: 130px;
+	left: 170px;	
+	background: rgb(94,191,188);
+}
+
+.circle-2:hover {
+	cursor: pointer;
+	opacity: 0.8;
+} 
+
+.circle-3 {
+	top: 130px;
+	left: 350px;		
+	background: rgb(127,193,20);
+}
+
+.circle-3:hover {
+	cursor: pointer;
+	opacity: 0.8;
+} 
+
+.circle-font {
+	margin-top: 60px;
+	font-weight: normal;
+}
+
+.description {
+	position: absolute;
+	top: 340px;
+	width: 95%;
+	padding-right: 30px;
+	font-size: 16px;
+}
+
+footer {
+	width: 100%;
+	min-height: 70px;
+	padding: 50px;
+	background: rgb(255, 48, 48);
+}
+
+.footer-font {
+	text-align: center;
+}
+
+.footer-icon {
+	font-size: 26px;
+}
+
+
+
+
+
+
+
+
+
